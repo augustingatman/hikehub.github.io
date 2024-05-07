@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="HikeHub is a travel group initiative
+    that organizes outdoor adventures. It is tailored to any of your personal
+    preferences or type of outdoor activity and exploration, giving
+    you the chance and opportunity to connect with nature and meet like-minded people." />
+
+    <link rel="icon" href="icons/favicon.png" />
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+
+    <script defer src="js/script.js"></script>
+
+    <title>HikeHub &mdash; your ultimate adventure</title>
+  </head>
+  <body>
+    <header class="header sticky">
+      <a href="#">
+        <img class="logo" alt="HikeHub logo" src="logos/logo-HikeHub.png" />
+      </a>
+      
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#experience">Experiences</a></li>
+          <li><a class="main-nav-link" href="#community">Community</a></li>
+          <li><a class="main-nav-link" href="#testimonials">Testimonials</a></li>
+          <li><a class="main-nav-link" href="#destinations">Destinations</a></li>
+          <li><a class="main-nav-link" href="#prices">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Join Us</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav"><ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+       <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon></button>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              Your ultimate outdoor destination awaits
+            </h1>
+            <p class="hero-description">
+              Embark on unforgettable outdoor adventures. Explore breathtaking
+              landscapes, discover hidden trails, and immerse yourself in the
+              beauty of the natural world. Start planning your next adventure
+              today!
+            </p>
+            <a href="#destinations" class="btn btn--full margin-right-sm"
+              >Find your adventure</a
+            >
+            <a href="#experience" class="btn btn--outline">Explore more &darr;</a>
+
+            <div class="trust-review">
+              <div class="trust-stars">
+                <img src="Trustpilot/icon-1.png" alt="trustpilot star" />
+                <img src="Trustpilot/icon-2.png" alt="trustpilot star" />
+                <img src="Trustpilot/icon-3.png" alt="trustpilot star" />
+                <img src="Trustpilot/icon-4.png" alt="trustpilot star" />
+                <img src="Trustpilot/icon-5.png" alt="trustpilot star" />
+              </div>
+              <p class="trust-text">Based on <span>3780</span> reviews</p>
+            </div>
+          </div>
+
+          <div class="hero-img-box">
+            <img
+              src="hero-img-min.webp"
+              class="hero-img"
+              alt="A person walking up a trail in the mountains"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-featured">
+        <div class="container">
+          <h2 class="heading-featured-in">As featured in</h2>
+          <div class="logos">
+            <img src="logos/techcrunch.png" alt="techcrunch logo" />
+            <img src="logos/business-insider.png" alt="business-insider logo" />
+            <img src="logos/forbes.png" alt="Forbes logo" />
+            <img src="logos/the-new-york-times.png" alt="New York Times logo" />
+            <img src="logos/usa-today.png" alt="USA today logo" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-destinations" id="experience">
+        <div class="container">
+          <span class="subheading">Footpaths to Freedom</span>
+          <h2 class="heading-secondary">Adventure Experiences for Everyone</h2>
+        </div>
+
+        <div class="container grid  grid--2-cols grid--center-vert">
+          <!-- BEACH ADVENTURES -->
+          <div class="destination-text-box">
+            <h3 class="heading-destination">Seashore Trails</h3>
+            <p class="heading-description">
+              Experience the rhythmic melody of waves and invigorating sea
+              breeze. Encounter stunning vistas of endless ocean views, cliffs,
+              and secluded beaches. Discover hidden coves, tide pools, and
+              windswept dunes. Whether at sunrise or sunset, coastal hiking
+              promises an unforgettable journey into nature's wonders!
+            </p>
+          </div>
+
+          <div class="destination-img-box">
+            <img
+              src="Destinations-box/beach-prime.webp"
+              class="dest-img"
+              alt="Hiker
+            holding a compass on a hill next to the ocean"
+            />
+          </div>
+
+          <!-- FOREST ADVENTURES -->
+
+          <div class="destination-img-box">
+            <img
+              src="Destinations-box/forest-prime.webp"
+              class="dest-img"
+              alt="Person following a forest trail"
+            />
+          </div>
+
+          <div class="destination-text-box">
+            <h3 class="heading-destination">Forest Trekking</h3>
+            <p class="heading-description">
+              Trek through ancient woodlands, where dappled sunlight filters
+              through towering trees, ferns carpet the forest floor, and
+              birdsong fills the air. Discover hidden streams, vibrant flora,
+              and the peaceful serenity of nature's embrace as you explore
+              winding trails and immerse yourself in the timeless beauty of the
+              forest.
+            </p>
+          </div>
+
+          <!-- DESERT ADVENTURES -->
+
+          <div class="destination-text-box">
+            <h3 class="heading-destination">Through the Deserts</h3>
+            <p class="heading-description">
+              Traverse ancient pathways, guided by shimmering mirages and the
+              whispers of the wind. Discover the beauty of arid landscapes,
+              where golden sands sculpted by time unveil hidden treasures and
+              the silence of the desert speaks volumes. Experience the raw
+              majesty of nature's most unforgiving terrain as you journey
+              through the heart of the desert.
+            </p>
+          </div>
+
+          <div class="destination-img-box">
+            <img
+              src="Destinations-box/desert-prime.webp"
+              class="dest-img"
+              alt="Hand holding shoe in the desert pouring sand from it"
+            />
+          </div>
+
+          <!-- MOUNTAIN ADVENTURES -->
+          <div class="destination-img-box">
+            <img
+              src="Destinations-box/mountain-prime.webp"
+              class="dest-img"
+              alt="Mountain range with high cliffs and snow"
+            />
+          </div>
+
+          <div class="destination-text-box">
+            <h3 class="heading-destination">Summit Exploration</h3>
+            <p class="heading-description">
+              Feel the exhilaration of conquering steep slopes and rocky
+              terrain, rewarded by breathtaking panoramic views that stretch to
+              the horizon. Immerse yourself in the serenity of high-altitude
+              landscapes, where the crisp mountain air invigorates the senses
+              and the majesty of nature unfolds with each step. Whether you seek
+              a challenging ascent or a leisurely stroll, mountain hiking offers
+              an unforgettable journey into the heart of the wilderness.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-in-numbers" id="community">
+        <div class="container center-text">
+          <span class="subheading">HikeHub in numbers</span>
+          <h2 class="heading-secondary">Data from 2015 and counting</h2>
+        </div>
+
+        <div class="container grid grid--4-cols">
+          <div class="data-numbers">
+            <ion-icon class="meal-icon" name="compass-outline"></ion-icon>
+            <div class="feat-quant">142</div>
+            <div class="feat-text">Curated routes</div>
+          </div>
+
+          <div class="data-numbers">
+            <ion-icon class="meal-icon" name="footsteps-outline"></ion-icon>
+            <div class="feat-quant">12.4M+</div>
+            <div class="feat-text">Logged kilometers</div>
+          </div>
+          <div class="data-numbers">
+            <ion-icon class="meal-icon" name="ribbon-outline"></ion-icon>
+            <div class="feat-quant">2,498</div>
+            <div class="feat-text">Organised tours</div>
+          </div>
+          <div class="data-numbers">
+            <ion-icon class="meal-icon" name="people-outline"></ion-icon>
+            <div class="feat-quant">19,387</div>
+            <div class="feat-text">Fellow explorers</div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container center-text">
+          <span class="heading-secondary carousel-name"
+            >Popular Destinations</span
+          >
+        </div>
+        <div class="carousel">
+          <img
+            src="dest/patagonia.jpg"
+            alt="hikers following a path in
+          patagonian mountains"
+          />
+
+          <blockquote class="carousel-description">
+            <p class="carousel-heading">Patagonia, South America</p>
+            <p class="carousel-text">
+              Explore Patagonia's stunning landscapes through thrilling hiking
+              adventures. From towering peaks to pristine wilderness, traverse
+              iconic trails like Torres del Paine and Los Glaciares National
+              Park for unforgettable encounters with nature's beauty.
+            </p>
+            <p class="carousel-spec">
+              <strong>Duration:</strong><span> 15 days</span>
+            </p>
+            <p class="carousel-spec">
+              <strong>Difficulty:</strong><span> 4/10</span>
+            </p>
+            <p class="carousel-spec">
+              <strong>Distance:</strong><span> 283kms</span>
+            </p>
+            <p class="carousel-spec"><strong>PP:</strong><span> £658</span></p>
+          </blockquote>
+
+          <button class="carousel-btns btn--left">
+            <ion-icon
+              class="carousel-btn"
+              name="chevron-back-outline"
+            ></ion-icon>
+          </button>
+          <button class="carousel-btns btn--right">
+            <ion-icon
+              class="carousel-btn"
+              name="chevron-forward-outline"
+            ></ion-icon>
+          </button>
+          <div class="dots-bttns">
+            <button class="dot-bttn dot--fill">&nbsp;</button>
+            <button class="dot-bttn">&nbsp;</button>
+            <button class="dot-bttn">&nbsp;</button>
+            <button class="dot-bttn">&nbsp;</button>
+            <button class="dot-bttn">&nbsp;</button>
+            <button class="dot-bttn">&nbsp;</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-testimonials" id="testimonials">
+        <div class="container center-text">
+          <span class="subheading">Testimonials</span>
+          <h2 class="heading-secondary-test">
+            Journeys Shared by Our Pioneers
+          </h2>
+
+          <div class="testimonials">
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer Angela Hart"
+                src="testimonials/angela.jpg"
+              />
+              <blockquote class="testimonial-text">
+                "Every journey beneath open skies became a transformative
+                experience, shaping my perspective and spirit."
+              </blockquote>
+              <p class="testimonial-name">&mdash; Angela Hart</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer Adriana Morris"
+                src="testimonials/bixa.jpg"
+              />
+              <blockquote class="testimonial-text">
+                "Exploring hidden trails and panoramic vistas, I uncovered the
+                beauty of our planet and the depths of my own resilience."
+              </blockquote>
+              <p class="testimonial-name">&mdash; Adriana Morris</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer Jason Roberts"
+                src="testimonials/Jason.jpg"
+              />
+              <blockquote class="testimonial-text">
+                "Embraced by the wilderness, I embarked on a quest for serenity
+                and found exhilaration in every moment.""
+              </blockquote>
+              <p class="testimonial-name">&mdash; Jason Roberts</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer Katy Lee"
+                src="testimonials/katy.jpg"
+              />
+              <blockquote class="testimonial-text">
+                "From tranquil lakeshores to rugged mountain passes, I roamed
+                freely, a wanderer in search of beauty and meaning"
+              </blockquote>
+              <p class="testimonial-name">&mdash; Katy Lee</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer Angela Hart"
+                src="testimonials/Michael.jpg"
+              />
+              <blockquote class="testimonial-text">
+                "Every expedition became a journey of self-discovery, revealing
+                the boundless wonders of our world."
+              </blockquote>
+              <p class="testimonial-name">&mdash; Michael Brown</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer Nick Peters"
+                src="testimonials/Nick.jpg"
+              />
+              <blockquote class="testimonial-text">
+                "From epic sunsets to star-studded nights, I found magic in the
+                simplicity of nature's wonders."
+              </blockquote>
+              <p class="testimonial-name">&mdash; Nick Peters</p>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="section-gallery grid-gallery grid--2-cols" id="destinations">
+        <div class="gallery">
+          <figure class="large-img">
+            <a href="#">
+
+              <img src="gallery/gobi.jpg" alt="hikers resting on a dune in gobi desert" />
+              <div class="overlay">
+                
+                <p class="gallery-text">Gobi Desert, Mongolia</p>
+              </div>
+            </a>
+            
+          </figure>
+        </div>
+        
+        <div class="gallery-2">
+          <figure class="small-img">
+            <a href="#">
+
+              <img src="gallery/kungsleden.jpg" alt="mountain in the sunset in the background of a lake">
+              <div class="overlay">
+                <p class="gallery-text">Kungsleden, Sweden</p>
+              </div>
+            </a>
+            
+          </figure>
+          <figure class="small-img">
+            <a href="#">
+
+              <img src="gallery/carpathians.jpg" alt="group of hikers following a path in carpathians">
+              <div class="overlay">
+                <p class="gallery-text">Carpathians, Romania</p>
+              </div>
+            </a>
+            
+          </figure>
+          <figure class="small-img">
+            <a href="#">
+
+              <img src="gallery/dolomites.jpg" alt="man in tent taking picture of another man overlooking dolomites mountains">
+              <div class="overlay">
+                <p class="gallery-text">Dolomites, Italy</p>
+              </div>
+            </a>
+            
+          </figure>
+          <figure class="small-img">
+            <a href="#">
+
+              <img src="gallery/hisma.jpg" alt="person in desert at night looking at the sky">
+              <div class="overlay">
+                <p class="gallery-text">Hisma Desert, Saudi Arabia</p>
+              </div>
+            </a>
+            
+          </figure>
+        </div>
+        <div class="gallery-2">
+          <figure class="small-img">
+            <a href="#">
+
+              <img src="gallery/ural.jpg" alt="hikers going uphill in ural mountains in winter">
+              <div class="overlay">
+                <p class="gallery-text">Ural Mountains, Russia</p>
+              </div>
+            </a>
+            
+          </figure>
+          <figure class="small-img">
+            <a href="#">
+
+              <img src="gallery/huyana.jpg" alt="group of hikers following a path in huyana potosi">
+              <div class="overlay">
+                <p class="gallery-text">Huayna Potosi, Bolivia</p>
+              </div>
+            </a>
+            
+          </figure>
+          <figure class="small-img">
+            <a href="#">
+
+              <img src="gallery/eeor-copy.jpg" alt="man looking at a mountain from a hill">
+              <div class="overlay">
+                <p class="gallery-text">East End of Rundle, Canada</p>
+              </div>
+            </a>
+            
+          </figure>
+          <figure class="small-img">
+            <a href="#">
+
+              <img src="gallery/landmanalaugar.jpg" alt="person overlooking landmannalaugar valley in Iceland">
+              <div class="overlay">
+                <p class="gallery-text">Landmannalaugar, Iceland</p>
+              </div>
+            </a>
+            
+          </figure>
+        </div>
+        <div class="gallery">
+          <figure class="large-img">
+            <a href="#">
+
+              <img src="gallery/fuji.jpg" alt="Mount fuji seen through branches of a tree" />
+              <div class="overlay">
+                <p class="gallery-text">Fuji Mountain, Japan</p>
+              </div>
+            </a>
+            
+          </figure>
+        </div>
+        
+      </section>
+      <div class="pricing-small">
+
+        <a href="#" class="btn-detail btn-detail-2">More destinations &rarr;</a>
+      </div>
+
+
+      
+
+      <section class="section-pricing" id="prices">
+        <div class="container center-text">
+          <span class="subheading">Pricing</span>
+          <h2 class="heading-secondary">
+            Choose the perfect plan for your needs
+          </h2>
+        </div>
+
+        <div class="container grid grid--3-cols">
+          <div class="pricing-plan pricing-offer">
+            <header class="plan-header">
+
+              <p class="plan-name">Basic</p>
+              <p class="plan-price">From <span>£</span>599&ast;</p>
+            </header>
+
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Consultation on preparation</span>
+              </li>
+
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Experienced group guide</span>
+              </li>
+
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>First-Aid kit</span>
+              </li>
+
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>10% off your next adventure</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>One meal per day</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Equipment rental</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon-x" name="close-outline"></ion-icon><span class="span-neg">Transportation to trailheads</span>
+              </li>
+              <li class="list-item">
+                 <ion-icon class="list-icon-x" name="close-outline"></ion-icon
+                ><span class="span-neg">Medal for completion</span>
+              </li>
+
+              
+              <li class="list-item">
+                <ion-icon class="list-icon-x" name="close-outline"></ion-icon><span class="span-neg">Helicopter emergency evacuation</span>
+              </li>
+              
+              
+            </ul>
+            <div class="plan-button">
+              <a href="#" class="btn btn--full margin-right-sm"
+              >Find your adventure</a
+              >
+            </div>
+          </div>
+        
+          <div class="pricing-plan pricing-offer">
+            <header class="plan-header">
+
+              <p class="plan-name">Plus</p>
+              <p class="plan-price">From <span>£</span>899&ast;</p>
+            </header>
+
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Consultation on preparation</span>
+              </li>
+
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Experienced group guide</span>
+              </li>
+
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>First-Aid kit</span>
+              </li>
+
+              
+              
+
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>20% off your next adventure</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Two meals per day</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>20% off equipment rental</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Transportation to trailheads</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon-x" name="close-outline"></ion-icon
+                ><span class="span-neg">Medal for completion</span>
+              </li>
+
+              
+              <li class="list-item">
+                <ion-icon class="list-icon-x" name="close-outline"></ion-icon
+                ><span class="span-neg">Helicopter emergency evacuation</span>
+              </li>
+              
+              
+            </ul>
+            <div class="plan-button">
+
+              <a href="#" class="btn btn--full margin-right-sm"
+              >Find your adventure</a
+              >
+            </div>
+            
+          </div>
+          
+        
+          <div class="pricing-plan pricing-premium">
+            <header class="plan-header">
+
+              <p class="plan-name">Premium</p>
+              <p class="plan-price">From <span>£</span>1,049&ast;</p>
+            </header>
+
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Consultation on preparation</span>
+              </li>
+
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Experienced group guide</span>
+              </li>
+
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>First-Aid kit</span>
+              </li>
+
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span><strong>30% off</strong> your next adventure</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span><strong>Three meals</strong> per day</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span><strong>30% off</strong> equipment rental</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Transportation to trailheads</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Medal for completion</span>
+              </li>
+
+              
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Helicopter emergency evacuation</span>
+              </li>
+              
+              
+            </ul>
+            <div class="plan-button">
+
+              <a href="#" class="btn btn--full margin-right-sm "
+              >Find your adventure</a
+              >
+            </div>
+        </div>
+      </section>
+      <div class="pricing-small">
+        <p class="pricing-details">&ast;Tax included. Does not cover flights, visas and insurance.</p>
+        <a href="#" class="btn-detail">Find out more &rarr;</a>
+      </div>
+
+      <section class="section-cta" id="cta">
+        <div class="container-cta cta">
+          <div class="cta-team-img">
+            <!-- <img
+              src="gallery/hikehub-team.jpg"
+              class="cta-team-img"
+              
+              alt="Hikehub team around a campfire in the night"
+            /> -->
+            
+            <h3 class="cta-text-team">
+              <em>About us</em>
+            </h3>
+            <p><em>"We're a tight-knit community bonded by our shared love for nature and the camaraderie that comes with exploring it. Here, you'll find more than just guided hikes and breathtaking vistas – you'll find lifelong friendships, moments of self-discovery, and a sense of belonging that transcends the trails."</em></p>
+            <a href="#" class="btn-detail btn-detail-team">Meet our team &rarr;</a>
+          </div>
+          <form class=" cta-form" action="#">
+
+            <span class="cta-name">Get in touch</span>
+
+            <div>
+
+              <label for="full-name">Full Name</label>
+              <input id="full-name" type="text" placeholder="Jason Banks" required />
+            </div>
+            <div>
+
+              <label for="email">Email address</label>
+              <input id="email" type="email" placeholder="me@example.com" required />
+            </div>
+            <div>
+
+              <label for="userInput">Write something (400 characters max): </label><br>
+              <textarea id="userInput" name="userInput" rows="20" cols="50" maxlength="400" placeholder="Type here" required></textarea><br>
+            </div>
+            <div>
+
+              <button class="btn btn--form">Submit</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img class="logo" alt="HikeHub logo" src="logos/logo-HikeHub-footer.png" />
+          </a>
+
+          <ul class="social-links">
+            <li><a class="footer-link" href="#"><ion-icon class="social-icon" name="logo-instagram"></ion-icon></a></li>
+            <li><a class="footer-link" href="#"><ion-icon class="social-icon" name="logo-twitter"></ion-icon></a></li>
+            <li><a class="footer-link" href="#"><ion-icon class="social-icon" name="logo-tiktok"></ion-icon></a></li>
+            <li><a class="footer-link" href="#"><ion-icon class="social-icon" name="logo-facebook"></ion-icon></a></li>
+          </ul>
+
+          <p class="copyright">Copyright &copy; <span class="year">2024</span> by HikeHub, Inc. All rights reserved</p>
+        </div>
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">32 Negruzzi St., 3rd Floor<br /> London, W2 4NB</p>
+            <p>
+              <a class="footer-link" href="tel:077-432-44-997">077-432-44-997</a><br />
+              <a class="footer-link" href="mailto:hello@hikehub.co.uk">hello@hikehub.co.uk</a>
+            </p>
+          </address>
+          
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Create account</a> </li>
+            <li><a class="footer-link" href="#">Log in</a> </li>
+            <li><a class="footer-link" href="#">Sign up</a> </li>
+            <li><a class="footer-link" href="#">iOS app</a> </li>
+            <li><a class="footer-link" href="#">Android app</a> </li>
+            
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Our story</a> </li>
+            <li><a class="footer-link" href="#">Outdoors partners</a> </li>
+            <li><a class="footer-link" href="#">Careers</a> </li>
+            <li><a class="footer-link" href="#">Influencers</a> </li>
+            <li><a class="footer-link" href="#">Ambassadors</a> </li>
+            
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Help center</a> </li>
+            <li><a class="footer-link" href="#">Cookie policy</a> </li>
+            <li><a class="footer-link" href="#">Privacy & terms</a> </li>
+            <li><a class="footer-link" href="#">Manage cookies</a> </li>
+            
+            
+          </ul>
+        </nav>
+        
+        
+      </div>
+    </footer>
+  </body>
+</html>
